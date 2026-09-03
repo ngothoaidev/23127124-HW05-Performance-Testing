@@ -1,0 +1,9 @@
+.sut/
+.tools/
+.runtime/
+tmp/
+dist/
+*.log
+results/**/*.jtl
+results/**/html/
+output/submission/*.zip

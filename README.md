@@ -1,0 +1,44 @@
+# 23127124 - HW05 AI Performance Testing
+
+This repository contains the performance-testing submission for EShop using Apache JMeter.
+
+## Current scope
+
+- FR-01: Account registration
+- FR-07: Shopping cart
+- FR-17: Coupon management
+- Supporting API calls: login, product list/detail, coupon application, and checkout
+
+## Generate and run
+
+```powershell
+node scripts/generate-test-assets.js
+powershell -ExecutionPolicy Bypass -File scripts/start-backend.ps1 -Scenario Smoke
+powershell -ExecutionPolicy Bypass -File scripts/run-jmeter.ps1 -Scenario Load -Threads 1 -RampSeconds 1 -DurationSeconds 10
+```
+
+Measured runs must restart the backend before each scenario to reset SQLite and the in-memory carts.
+
+## Test summary
+
+- Measured scenarios: Load, two Stress levels, corrected Spike, and ten-minute Soak.
+- Endpoint groups: auth-heavy, read-heavy, and transactional.
+- Selected features: FR-01, FR-07, and FR-17.
+- Endurance threshold demonstrated: 926.00 RPS at 250 VUs for ten minutes; p95 311 ms; 0% errors; maximum backend working set 211.34 MB.
+- Verified issue drafts: 2.
+- Demo video: `<ADD_UNLISTED_YOUTUBE_URL>`.
+- Public repository: `<ADD_PUBLIC_GITHUB_URL>`.
+
+## Submission status
+
+| Criterion | Max | Self-assessed | Status |
+|---|---:|---:|---|
+| Load testing | 30 | 30 | Technical artifacts complete; screenshot/video pending |
+| Stress testing | 20 | 20 | Technical artifacts complete; screenshot/video pending |
+| Spike testing | 20 | 20 | Technical artifacts complete; screenshot/video pending |
+| AI analysis and misinterpretation hunt | 10 | 10 | Complete; student review pending |
+| Continuous Performance Testing proposal | 10 | 10 | Complete |
+| Agent Skill | 10 | 10 | Validated; demo video pending |
+| **Total** | **100** | **100** | External evidence still required |
+
+The self-assessment remains conditional on adding the public repository, GitHub Issue, hardware screenshot, and unlisted narrated demo links.
