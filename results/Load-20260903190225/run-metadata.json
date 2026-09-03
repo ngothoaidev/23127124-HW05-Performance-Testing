@@ -1,0 +1,13 @@
+{
+  "student_id": "23127124",
+  "scenario": "Load",
+  "started_at": "2026-09-03T19:02:25+07:00",
+  "run_id": "20260903190225",
+  "host": "127.0.0.1",
+  "port": 3000,
+  "threads": 15,
+  "ramp_seconds": 30,
+  "duration_seconds": 180,
+  "jmeter_version": "5.6.3",
+  "java_version": "Temurin 21"
+}
