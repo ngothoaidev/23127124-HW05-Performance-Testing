@@ -1,0 +1,13 @@
+{
+  "student_id": "23127124",
+  "scenario": "Soak",
+  "started_at": "2026-09-03T19:23:26+07:00",
+  "run_id": "20260903192326",
+  "host": "127.0.0.1",
+  "port": 3000,
+  "threads": 250,
+  "ramp_seconds": 60,
+  "duration_seconds": 600,
+  "jmeter_version": "5.6.3",
+  "java_version": "Temurin 21"
+}
