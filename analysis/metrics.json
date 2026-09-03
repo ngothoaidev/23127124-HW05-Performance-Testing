@@ -1,0 +1,633 @@
+[
+  {
+    "label": "Load",
+    "directory": "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\results\\Load-20260903190225",
+    "jtl": "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\results\\Load-20260903190225\\23127124_Load_20260903.jtl",
+    "samples": 21929,
+    "errors": 0,
+    "error_rate_percent": 0.0,
+    "duration_seconds": 181.325,
+    "throughput_rps": 120.94,
+    "average_ms": 3.72,
+    "p50_ms": 1.0,
+    "p90_ms": 10.0,
+    "p95_ms": 23.0,
+    "p99_ms": 28.0,
+    "max_ms": 144.0,
+    "top_errors": [],
+    "response_codes": {
+      "200": 21929
+    },
+    "per_label": {
+      "AUTH - Login Registered User": {
+        "samples": 15,
+        "errors": 0,
+        "average_ms": 2.87,
+        "p95_ms": 6.0,
+        "max_ms": 6.0
+      },
+      "Apply FR17-created Coupon": {
+        "samples": 3649,
+        "errors": 0,
+        "average_ms": 1.77,
+        "p95_ms": 3.0,
+        "max_ms": 41.0
+      },
+      "Checkout Order": {
+        "samples": 3649,
+        "errors": 0,
+        "average_ms": 13.94,
+        "p95_ms": 28.0,
+        "max_ms": 144.0
+      },
+      "FR01 - Register Unique User": {
+        "samples": 15,
+        "errors": 0,
+        "average_ms": 21.07,
+        "p95_ms": 28.0,
+        "max_ms": 28.0
+      },
+      "FR07 - Add Product to Cart": {
+        "samples": 3649,
+        "errors": 0,
+        "average_ms": 0.84,
+        "p95_ms": 1.0,
+        "max_ms": 26.0
+      },
+      "FR07 - View Cart": {
+        "samples": 3649,
+        "errors": 0,
+        "average_ms": 0.73,
+        "p95_ms": 1.0,
+        "max_ms": 21.0
+      },
+      "FR17 - Create Run Coupon": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 12.0,
+        "p95_ms": 12.0,
+        "max_ms": 12.0
+      },
+      "FR17 - Delete Run Coupon": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 27.0,
+        "p95_ms": 27.0,
+        "max_ms": 27.0
+      },
+      "FR17 - List Coupons": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 4.0,
+        "p95_ms": 4.0,
+        "max_ms": 4.0
+      },
+      "READ - Product Detail": {
+        "samples": 3649,
+        "errors": 0,
+        "average_ms": 1.1,
+        "p95_ms": 2.0,
+        "max_ms": 34.0
+      },
+      "READ - Product List": {
+        "samples": 3649,
+        "errors": 0,
+        "average_ms": 3.82,
+        "p95_ms": 15.0,
+        "max_ms": 133.0
+      },
+      "SETUP - Admin Login": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 87.0,
+        "p95_ms": 87.0,
+        "max_ms": 87.0
+      },
+      "TEARDOWN - Admin Login": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 3.0,
+        "p95_ms": 3.0,
+        "max_ms": 3.0
+      }
+    },
+    "resources": {
+      "samples": 187,
+      "working_set_start_mb": 51.6,
+      "working_set_end_mb": 176.47,
+      "working_set_max_mb": 177.68,
+      "private_max_mb": 209.81,
+      "working_set_change_mb": 124.87,
+      "working_set_slope_mb_per_min": 40.28064516129032
+    }
+  },
+  {
+    "label": "Stress80",
+    "directory": "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\results\\Stress-20260903190622",
+    "jtl": "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\results\\Stress-20260903190622\\23127124_Stress_20260903.jtl",
+    "samples": 126316,
+    "errors": 0,
+    "error_rate_percent": 0.0,
+    "duration_seconds": 241.488,
+    "throughput_rps": 523.07,
+    "average_ms": 5.5,
+    "p50_ms": 2.0,
+    "p90_ms": 14.0,
+    "p95_ms": 20.0,
+    "p99_ms": 38.0,
+    "max_ms": 290.0,
+    "top_errors": [],
+    "response_codes": {
+      "200": 126316
+    },
+    "per_label": {
+      "AUTH - Login Registered User": {
+        "samples": 80,
+        "errors": 0,
+        "average_ms": 3.05,
+        "p95_ms": 8.0,
+        "max_ms": 25.0
+      },
+      "Apply FR17-created Coupon": {
+        "samples": 21025,
+        "errors": 0,
+        "average_ms": 5.85,
+        "p95_ms": 20.0,
+        "max_ms": 163.0
+      },
+      "Checkout Order": {
+        "samples": 21025,
+        "errors": 0,
+        "average_ms": 13.16,
+        "p95_ms": 31.0,
+        "max_ms": 290.0
+      },
+      "FR01 - Register Unique User": {
+        "samples": 80,
+        "errors": 0,
+        "average_ms": 13.65,
+        "p95_ms": 29.0,
+        "max_ms": 53.0
+      },
+      "FR07 - Add Product to Cart": {
+        "samples": 21025,
+        "errors": 0,
+        "average_ms": 1.61,
+        "p95_ms": 5.0,
+        "max_ms": 81.0
+      },
+      "FR07 - View Cart": {
+        "samples": 21025,
+        "errors": 0,
+        "average_ms": 1.54,
+        "p95_ms": 4.0,
+        "max_ms": 44.0
+      },
+      "FR17 - Create Run Coupon": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 29.0,
+        "p95_ms": 29.0,
+        "max_ms": 29.0
+      },
+      "FR17 - Delete Run Coupon": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 28.0,
+        "p95_ms": 28.0,
+        "max_ms": 28.0
+      },
+      "FR17 - List Coupons": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 3.0,
+        "p95_ms": 3.0,
+        "max_ms": 3.0
+      },
+      "READ - Product Detail": {
+        "samples": 21025,
+        "errors": 0,
+        "average_ms": 3.39,
+        "p95_ms": 13.0,
+        "max_ms": 134.0
+      },
+      "READ - Product List": {
+        "samples": 21026,
+        "errors": 0,
+        "average_ms": 7.41,
+        "p95_ms": 23.0,
+        "max_ms": 276.0
+      },
+      "SETUP - Admin Login": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 84.0,
+        "p95_ms": 84.0,
+        "max_ms": 84.0
+      },
+      "TEARDOWN - Admin Login": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 3.0,
+        "p95_ms": 3.0,
+        "max_ms": 3.0
+      }
+    },
+    "resources": {
+      "samples": 250,
+      "working_set_start_mb": 50.27,
+      "working_set_end_mb": 87.57,
+      "working_set_max_mb": 183.77,
+      "private_max_mb": 217.98,
+      "working_set_change_mb": 37.29999999999999,
+      "working_set_slope_mb_per_min": 8.987951807228912
+    }
+  },
+  {
+    "label": "Stress400",
+    "directory": "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\results\\Stress-20260903191214",
+    "jtl": "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\results\\Stress-20260903191214\\23127124_Stress_20260903.jtl",
+    "samples": 154758,
+    "errors": 0,
+    "error_rate_percent": 0.0,
+    "duration_seconds": 182.099,
+    "throughput_rps": 849.86,
+    "average_ms": 280.66,
+    "p50_ms": 266.0,
+    "p90_ms": 557.0,
+    "p95_ms": 636.0,
+    "p99_ms": 770.0,
+    "max_ms": 1044.0,
+    "top_errors": [],
+    "response_codes": {
+      "200": 154758
+    },
+    "per_label": {
+      "AUTH - Login Registered User": {
+        "samples": 400,
+        "errors": 0,
+        "average_ms": 151.98,
+        "p95_ms": 425.0,
+        "max_ms": 583.0
+      },
+      "Apply FR17-created Coupon": {
+        "samples": 25627,
+        "errors": 0,
+        "average_ms": 505.25,
+        "p95_ms": 785.0,
+        "max_ms": 1044.0
+      },
+      "Checkout Order": {
+        "samples": 25515,
+        "errors": 0,
+        "average_ms": 323.58,
+        "p95_ms": 514.0,
+        "max_ms": 784.0
+      },
+      "FR01 - Register Unique User": {
+        "samples": 400,
+        "errors": 0,
+        "average_ms": 151.49,
+        "p95_ms": 420.0,
+        "max_ms": 620.0
+      },
+      "FR07 - Add Product to Cart": {
+        "samples": 25675,
+        "errors": 0,
+        "average_ms": 133.98,
+        "p95_ms": 292.0,
+        "max_ms": 477.0
+      },
+      "FR07 - View Cart": {
+        "samples": 25651,
+        "errors": 0,
+        "average_ms": 109.51,
+        "p95_ms": 275.0,
+        "max_ms": 473.0
+      },
+      "FR17 - Create Run Coupon": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 14.0,
+        "p95_ms": 14.0,
+        "max_ms": 14.0
+      },
+      "FR17 - Delete Run Coupon": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 9.0,
+        "p95_ms": 9.0,
+        "max_ms": 9.0
+      },
+      "FR17 - List Coupons": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 5.0,
+        "p95_ms": 5.0,
+        "max_ms": 5.0
+      },
+      "READ - Product Detail": {
+        "samples": 25718,
+        "errors": 0,
+        "average_ms": 306.7,
+        "p95_ms": 512.0,
+        "max_ms": 742.0
+      },
+      "READ - Product List": {
+        "samples": 25767,
+        "errors": 0,
+        "average_ms": 309.4,
+        "p95_ms": 541.0,
+        "max_ms": 874.0
+      },
+      "SETUP - Admin Login": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 106.0,
+        "p95_ms": 106.0,
+        "max_ms": 106.0
+      },
+      "TEARDOWN - Admin Login": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 3.0,
+        "p95_ms": 3.0,
+        "max_ms": 3.0
+      }
+    },
+    "resources": {
+      "samples": 194,
+      "working_set_start_mb": 51.45,
+      "working_set_end_mb": 194.44,
+      "working_set_max_mb": 197.57,
+      "private_max_mb": 223.43,
+      "working_set_change_mb": 142.99,
+      "working_set_slope_mb_per_min": 44.45284974093264
+    }
+  },
+  {
+    "label": "Spike600",
+    "directory": "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\results\\Spike-20260903192044",
+    "jtl": "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\results\\Spike-20260903192044\\23127124_Spike_20260903.jtl",
+    "samples": 83242,
+    "errors": 138,
+    "error_rate_percent": 0.1658,
+    "duration_seconds": 92.066,
+    "throughput_rps": 904.16,
+    "average_ms": 467.33,
+    "p50_ms": 456.0,
+    "p90_ms": 815.0,
+    "p95_ms": 914.0,
+    "p99_ms": 1146.0,
+    "max_ms": 2197.0,
+    "top_errors": [
+      {
+        "count": 69,
+        "label": "FR01 - Register Unique User",
+        "code": "Non HTTP response code: org.apache.http.conn.HttpHostConnectException",
+        "message": "Non HTTP response message: Connect to 127.0.0.1:3000 [/127.0.0.1] failed: Connection refused: getsockopt"
+      },
+      {
+        "count": 67,
+        "label": "AUTH - Login Registered User",
+        "code": "Non HTTP response code: org.apache.http.conn.HttpHostConnectException",
+        "message": "Non HTTP response message: Connect to 127.0.0.1:3000 [/127.0.0.1] failed: Connection refused: getsockopt"
+      },
+      {
+        "count": 2,
+        "label": "AUTH - Login Registered User",
+        "code": "401",
+        "message": "Unauthorized"
+      }
+    ],
+    "response_codes": {
+      "200": 83104,
+      "Non HTTP response code: org.apache.http.conn.HttpHostConnectException": 136,
+      "401": 2
+    },
+    "per_label": {
+      "AUTH - Login Registered User": {
+        "samples": 600,
+        "errors": 69,
+        "average_ms": 650.96,
+        "p95_ms": 967.0,
+        "max_ms": 1977.0
+      },
+      "Apply FR17-created Coupon": {
+        "samples": 13622,
+        "errors": 0,
+        "average_ms": 806.2,
+        "p95_ms": 1111.0,
+        "max_ms": 1372.0
+      },
+      "Checkout Order": {
+        "samples": 13499,
+        "errors": 0,
+        "average_ms": 539.06,
+        "p95_ms": 761.0,
+        "max_ms": 1042.0
+      },
+      "FR01 - Register Unique User": {
+        "samples": 600,
+        "errors": 69,
+        "average_ms": 1094.63,
+        "p95_ms": 1935.0,
+        "max_ms": 2197.0
+      },
+      "FR07 - Add Product to Cart": {
+        "samples": 13698,
+        "errors": 0,
+        "average_ms": 217.06,
+        "p95_ms": 409.0,
+        "max_ms": 769.0
+      },
+      "FR07 - View Cart": {
+        "samples": 13648,
+        "errors": 0,
+        "average_ms": 197.43,
+        "p95_ms": 424.0,
+        "max_ms": 764.0
+      },
+      "FR17 - Create Run Coupon": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 11.0,
+        "p95_ms": 11.0,
+        "max_ms": 11.0
+      },
+      "FR17 - Delete Run Coupon": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 7.0,
+        "p95_ms": 7.0,
+        "max_ms": 7.0
+      },
+      "FR17 - List Coupons": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 4.0,
+        "p95_ms": 4.0,
+        "max_ms": 4.0
+      },
+      "READ - Product Detail": {
+        "samples": 13754,
+        "errors": 0,
+        "average_ms": 494.52,
+        "p95_ms": 746.0,
+        "max_ms": 1051.0
+      },
+      "READ - Product List": {
+        "samples": 13816,
+        "errors": 0,
+        "average_ms": 515.76,
+        "p95_ms": 788.0,
+        "max_ms": 1048.0
+      },
+      "SETUP - Admin Login": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 79.0,
+        "p95_ms": 79.0,
+        "max_ms": 79.0
+      },
+      "TEARDOWN - Admin Login": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 4.0,
+        "p95_ms": 4.0,
+        "max_ms": 4.0
+      }
+    },
+    "resources": {
+      "samples": 101,
+      "working_set_start_mb": 50.09,
+      "working_set_end_mb": 210.41,
+      "working_set_max_mb": 210.68,
+      "private_max_mb": 233.81,
+      "working_set_change_mb": 160.32,
+      "working_set_slope_mb_per_min": 96.192
+    }
+  },
+  {
+    "label": "Soak250",
+    "directory": "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\results\\Soak-20260903192326",
+    "jtl": "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\results\\Soak-20260903192326\\23127124_Soak_20260903.jtl",
+    "samples": 557131,
+    "errors": 0,
+    "error_rate_percent": 0.0,
+    "duration_seconds": 601.656,
+    "throughput_rps": 926.0,
+    "average_ms": 146.9,
+    "p50_ms": 139.0,
+    "p90_ms": 269.0,
+    "p95_ms": 311.0,
+    "p99_ms": 396.0,
+    "max_ms": 2466.0,
+    "top_errors": [],
+    "response_codes": {
+      "200": 557131
+    },
+    "per_label": {
+      "AUTH - Login Registered User": {
+        "samples": 250,
+        "errors": 0,
+        "average_ms": 56.64,
+        "p95_ms": 186.0,
+        "max_ms": 344.0
+      },
+      "Apply FR17-created Coupon": {
+        "samples": 92756,
+        "errors": 0,
+        "average_ms": 253.89,
+        "p95_ms": 390.0,
+        "max_ms": 2466.0
+      },
+      "Checkout Order": {
+        "samples": 92702,
+        "errors": 0,
+        "average_ms": 174.22,
+        "p95_ms": 287.0,
+        "max_ms": 2363.0
+      },
+      "FR01 - Register Unique User": {
+        "samples": 250,
+        "errors": 0,
+        "average_ms": 60.25,
+        "p95_ms": 178.0,
+        "max_ms": 312.0
+      },
+      "FR07 - Add Product to Cart": {
+        "samples": 92777,
+        "errors": 0,
+        "average_ms": 68.36,
+        "p95_ms": 143.0,
+        "max_ms": 1159.0
+      },
+      "FR07 - View Cart": {
+        "samples": 92768,
+        "errors": 0,
+        "average_ms": 58.49,
+        "p95_ms": 126.0,
+        "max_ms": 1018.0
+      },
+      "FR17 - Create Run Coupon": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 30.0,
+        "p95_ms": 30.0,
+        "max_ms": 30.0
+      },
+      "FR17 - Delete Run Coupon": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 9.0,
+        "p95_ms": 9.0,
+        "max_ms": 9.0
+      },
+      "FR17 - List Coupons": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 4.0,
+        "p95_ms": 4.0,
+        "max_ms": 4.0
+      },
+      "READ - Product Detail": {
+        "samples": 92800,
+        "errors": 0,
+        "average_ms": 163.83,
+        "p95_ms": 273.0,
+        "max_ms": 2385.0
+      },
+      "READ - Product List": {
+        "samples": 92823,
+        "errors": 0,
+        "average_ms": 163.12,
+        "p95_ms": 277.0,
+        "max_ms": 2366.0
+      },
+      "SETUP - Admin Login": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 76.0,
+        "p95_ms": 76.0,
+        "max_ms": 76.0
+      },
+      "TEARDOWN - Admin Login": {
+        "samples": 1,
+        "errors": 0,
+        "average_ms": 4.0,
+        "p95_ms": 4.0,
+        "max_ms": 4.0
+      }
+    },
+    "resources": {
+      "samples": 621,
+      "working_set_start_mb": 51.24,
+      "working_set_end_mb": 206.93,
+      "working_set_max_mb": 211.34,
+      "private_max_mb": 231.25,
+      "working_set_change_mb": 155.69,
+      "working_set_slope_mb_per_min": 15.066774193548387
+    }
+  }
+]
