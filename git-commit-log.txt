@@ -1,0 +1,10 @@
+f4aafe5	2026-09-03 19:56:29 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	docs(submission): record published issues and enforce evidence gate
+2b52140	2026-09-03 19:55:07 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	docs(evidence): link public repo and add JMeter issue screenshots
+901735b	2026-09-03 19:50:15 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	docs(report): publish submission reports and delivery guides
+3d973c5	2026-09-03 19:50:14 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	feat(skill): add reusable eShop performance analysis skill
+f56727b	2026-09-03 19:50:14 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	docs(analysis): review metrics, findings, and AI audit trail
+731e6db	2026-09-03 19:50:14 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	test(soak): add 10 minute endurance scenario and telemetry
+2711721	2026-09-03 19:50:13 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	test(spike): capture corrected 600 VU overload run
+9f5946c	2026-09-03 19:50:13 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	test(stress): calibrate and execute 400 VU workload
+18380f5	2026-09-03 19:50:13 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	test(load): add baseline workflow and recorded measurements
+648c9a5	2026-09-03 19:50:12 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	chore: scaffold JMeter performance test workspace
