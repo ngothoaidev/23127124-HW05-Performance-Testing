@@ -99,12 +99,10 @@ The preserved AI analysis and human review are included under `analysis/`. The m
 
 ## 7. Genuine issues
 
-Two issue drafts are included:
+Two verified issues were published with JMeter dashboard screenshots:
 
-1. Connection refusals and p99 regression during a corrected 600-VU Spike.
-2. Checkout does not clear the process-local cart, creating functional and sustained-memory risk.
-
-The student must attach screenshots and publish the verified issues to the public GitHub repository.
+1. [Connection refusals and p99 regression during a corrected 600-VU Spike](https://github.com/ngothoaidev/23127124-HW05-Performance-Testing/issues/1).
+2. [Checkout does not clear the process-local cart, creating functional and sustained-memory risk](https://github.com/ngothoaidev/23127124-HW05-Performance-Testing/issues/2).
 
 ## 8. Continuous Performance Testing proposal
 
@@ -138,7 +136,6 @@ The measured local SUT scales efficiently at low concurrency but enters a latenc
 - Task Manager/JMeter screenshots from each scenario in the same frame.
 - `dxdiag` screenshot showing hostname THOAI.
 - At least six minutes of Vietnamese narration in an unlisted YouTube video.
-- Published GitHub Issue links and screenshots.
 - Demo video URL.
 - Student approval of the human-review conclusions and self-assessed grade.
 

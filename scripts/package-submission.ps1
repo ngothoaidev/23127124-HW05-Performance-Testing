@@ -16,8 +16,16 @@ if (-not $GitHubUrl.StartsWith("https://github.com/")) { throw "A public GitHub 
 if (-not $VideoUrl.StartsWith("https://")) { throw "An unlisted YouTube video URL is required." }
 if (-not (Test-Path -LiteralPath (Join-Path $root "git-commit-log.txt"))) { throw "Generate git-commit-log.txt after creating the required commits." }
 
-$screenshots = Get-ChildItem -Path (Join-Path $root "evidence") -Include *.png,*.jpg,*.jpeg -Recurse -File -ErrorAction SilentlyContinue
-if (-not $screenshots) { throw "Add the required JMeter/Task Manager and hardware screenshots under evidence/." }
+$requiredEvidence = @(
+    "evidence\load-jmeter-task-manager.png",
+    "evidence\stress-jmeter-task-manager.png",
+    "evidence\spike-jmeter-task-manager.png",
+    "evidence\hardware-dxdiag.png"
+)
+$missingEvidence = $requiredEvidence | Where-Object { -not (Test-Path -LiteralPath (Join-Path $root $_)) }
+if ($missingEvidence) {
+    throw "Missing student-captured evidence: $($missingEvidence -join ', ')"
+}
 
 New-Item -ItemType Directory -Force -Path $outputRoot | Out-Null
 if (Test-Path -LiteralPath $staging) {
@@ -63,4 +71,3 @@ Set-Content -Encoding UTF8 -LiteralPath (Join-Path $staging "links.md") -Value "
 if (Test-Path -LiteralPath $zip) { Remove-Item -Force -LiteralPath $zip }
 Compress-Archive -Path (Join-Path $staging "*") -DestinationPath $zip -CompressionLevel Optimal
 Write-Output "Created $zip"
-
