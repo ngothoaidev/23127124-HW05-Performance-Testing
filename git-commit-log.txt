@@ -1,3 +1,6 @@
+932947a	2026-09-03 20:24:02 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	docs(evidence): add student screenshots and verification reruns
+bd93325	2026-09-03 20:03:42 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	fix(jmeter): support Windows PowerShell 5.1 process arguments
+cc64a5e	2026-09-03 19:56:53 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	chore: attach auditable Git commit log
 f4aafe5	2026-09-03 19:56:29 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	docs(submission): record published issues and enforce evidence gate
 2b52140	2026-09-03 19:55:07 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	docs(evidence): link public repo and add JMeter issue screenshots
 901735b	2026-09-03 19:50:15 +0700	ngothoaidev <thoai.ngo.dev@gmail.com>	docs(report): publish submission reports and delivery guides
