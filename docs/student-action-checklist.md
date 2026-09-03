@@ -6,7 +6,7 @@ These items cannot be fabricated or completed silently by AI.
 - [ ] Review and approve the workflow and all conclusions in `report/main-report.md`.
 - [x] Capture JMeter and Task Manager in the same frame as `evidence/load-jmeter-task-manager.png`, `evidence/stress-jmeter-task-manager.png`, and `evidence/spike-jmeter-task-manager.png`.
 - [x] Run `dxdiag` and save a screenshot showing hostname `THOAI` as `evidence/hardware-dxdiag.png`.
-- [ ] Record at least six minutes with your own Vietnamese narration using `docs/demo-video-script-vi.md`.
+- [x] Record at least six minutes with your own Vietnamese narration using `docs/demo-video-script-vi.md`.
 - [x] Upload the video as unlisted and add https://youtu.be/kmkiT8y2rXQ to the submission.
 - [x] Publish the two verified issue drafts with JMeter dashboard screenshots and add their URLs.
 - [x] Add the public GitHub repository URL to `README.md`.
