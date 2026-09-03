@@ -20,7 +20,7 @@ The measured Load run sustained 120.94 HTTP RPS with zero failed samples and p95
 | Operating system | Windows 11 Home 10.0.26200 |
 | Hostname | THOAI |
 | CPU | AMD Ryzen 7 8845H, 16 logical processors |
-| RAM | 13.81 GB |
+| RAM | 16 GB installed; 13.81 GB usable during the original measurement |
 | Backend | Node.js 24.18.0, Express 5.2.1, SQLite |
 | Java | Eclipse Temurin 21.0.12.1 LTS |
 | JMeter | 5.6.3 |
@@ -131,10 +131,36 @@ The AI was useful for quickly converting the assignment into an executable JMete
 
 The measured local SUT scales efficiently at low concurrency but enters a latency-saturation region before 400 VUs. At 600 abruptly started VUs, throughput rises modestly while p99 passes one second and the listener observes connection refusals. The demonstrated endurance threshold is 926 RPS at 250 VUs for ten minutes, with p95 311 ms, 0% errors, and a 211.34 MB observed memory ceiling. The upward memory trend and cart implementation justify a verified functional/performance issue, not an unsupported generic memory-leak claim.
 
-## 12. Evidence still requiring the student
+## 12. Student-captured evidence and verification reruns
 
-- Task Manager/JMeter screenshots from each scenario in the same frame.
-- `dxdiag` screenshot showing hostname THOAI.
+The student captured the completed JMeter command beside Task Manager for each required workload and supplied a `dxdiag` System screenshot. The three verification reruns were independently parsed from their raw JTL files:
+
+| Rerun | HTTP samples | Errors | RPS | Average | p95 | p99 | Max working set |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Load, 15 VUs | 22,583 | 0 | 124.66 | 1.95 ms | 6 ms | 24 ms | 177.10 MB |
+| Stress, 400 VUs | 233,905 | 0 | 1,290.52 | 149.28 ms | 349 ms | 453 ms | 201.43 MB |
+| Spike, 600 VUs | 111,647 | 0 | 1,218.19 | 376.18 ms | 743 ms | 865 ms | 212.54 MB |
+
+These reruns confirm that the test plans completed with their declared concurrency. Their better error rates also demonstrate run-to-run variation on a shared workstation; they do not invalidate the earlier recorded Spike connection-refusal event.
+
+### 12.1 Load evidence
+
+![Load completion and Task Manager](../evidence/load-jmeter-task-manager.png)
+
+### 12.2 Stress evidence
+
+![Stress completion and Task Manager](../evidence/stress-jmeter-task-manager.png)
+
+### 12.3 Spike evidence
+
+![Spike completion and Task Manager](../evidence/spike-jmeter-task-manager.png)
+
+### 12.4 Hardware evidence
+
+![DxDiag System tab showing hostname and hardware](../evidence/hardware-dxdiag.png)
+
+## 13. Evidence still requiring the student
+
 - At least six minutes of Vietnamese narration in an unlisted YouTube video.
 - Demo video URL.
 - Student approval of the human-review conclusions and self-assessed grade.

@@ -4,8 +4,8 @@ These items cannot be fabricated or completed silently by AI.
 
 - [ ] Confirm that FR-01, FR-07, and FR-17 are not duplicated by another group member.
 - [ ] Review and approve the workflow and all conclusions in `report/main-report.md`.
-- [ ] Capture JMeter and Task Manager in the same frame as `evidence/load-jmeter-task-manager.png`, `evidence/stress-jmeter-task-manager.png`, and `evidence/spike-jmeter-task-manager.png`.
-- [ ] Run `dxdiag` and save a screenshot showing hostname `THOAI` as `evidence/hardware-dxdiag.png`.
+- [x] Capture JMeter and Task Manager in the same frame as `evidence/load-jmeter-task-manager.png`, `evidence/stress-jmeter-task-manager.png`, and `evidence/spike-jmeter-task-manager.png`.
+- [x] Run `dxdiag` and save a screenshot showing hostname `THOAI` as `evidence/hardware-dxdiag.png`.
 - [ ] Record at least six minutes with your own Vietnamese narration using `docs/demo-video-script-vi.md`.
 - [ ] Upload the video as unlisted and replace `<ADD_UNLISTED_YOUTUBE_URL>` in `README.md`.
 - [x] Publish the two verified issue drafts with JMeter dashboard screenshots and add their URLs.

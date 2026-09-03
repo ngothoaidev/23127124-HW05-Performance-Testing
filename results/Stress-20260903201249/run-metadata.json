@@ -1,0 +1,14 @@
+﻿{
+    "student_id":  "23127124",
+    "scenario":  "Stress",
+    "plan":  "C:\\Users\\thoai\\OneDrive\\Documents\\ChatGPT\\Homework 5\\test-plans\\23127124_Stress_20260903.jmx",
+    "started_at":  "2026-09-03T20:12:49.2166304+07:00",
+    "run_id":  "20260903201249",
+    "host":  "127.0.0.1",
+    "port":  3000,
+    "threads":  400,
+    "ramp_seconds":  60,
+    "duration_seconds":  180,
+    "jmeter_version":  "5.6.3",
+    "java_version":  "Temurin 21"
+}

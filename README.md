@@ -35,12 +35,12 @@ Measured runs must restart the backend before each scenario to reset SQLite and 
 
 | Criterion | Max | Self-assessed | Status |
 |---|---:|---:|---|
-| Load testing | 30 | 30 | Technical artifacts complete; screenshot/video pending |
-| Stress testing | 20 | 20 | Technical artifacts complete; screenshot/video pending |
-| Spike testing | 20 | 20 | Technical artifacts complete; screenshot/video pending |
+| Load testing | 30 | 30 | Technical artifacts and student screenshot complete; video pending |
+| Stress testing | 20 | 20 | Technical artifacts and student screenshot complete; video pending |
+| Spike testing | 20 | 20 | Technical artifacts and student screenshot complete; video pending |
 | AI analysis and misinterpretation hunt | 10 | 10 | Complete; student review pending |
 | Continuous Performance Testing proposal | 10 | 10 | Complete |
 | Agent Skill | 10 | 10 | Validated; demo video pending |
 | **Total** | **100** | **100** | External evidence still required |
 
-The self-assessment remains conditional on adding the hardware screenshot and unlisted narrated demo link.
+The self-assessment remains conditional on adding the unlisted narrated demo link and student approval.

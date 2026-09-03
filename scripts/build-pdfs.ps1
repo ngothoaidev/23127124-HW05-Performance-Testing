@@ -41,6 +41,7 @@ foreach ($document in $documents) {
     $body = (ConvertFrom-Markdown -InputObject $markdown).Html
     if ($document.Source -eq "report\main-report.md") {
         $body = $body.Replace('src="assets/', 'src="../../report/assets/')
+        $body = $body.Replace('src="../evidence/', 'src="../../evidence/')
     }
     $html = "<!doctype html><html><head><meta charset=`"utf-8`"><style>$css</style></head><body>$body</body></html>"
     $htmlPath = Join-Path $tempDir ($document.Name + ".html")
