@@ -1,0 +1,4 @@
+interface:
+  display_name: "EShop Performance Testing"
+  short_description: "Run and analyze reproducible JMeter tests"
+  default_prompt: "Run the EShop performance workflow and analyze the resulting JTL logs."
