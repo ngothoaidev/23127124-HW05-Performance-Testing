@@ -4,7 +4,8 @@
 **SUT:** EShop  
 **Tool:** Apache JMeter 5.6.3  
 **Test date:** 2026-09-03  
-**Base URL:** `http://127.0.0.1:3000`
+**Base URL:** `http://127.0.0.1:3000`  
+**Public repository:** https://github.com/ngothoaidev/23127124-HW05-Performance-Testing
 
 ## 1. Executive summary
 
@@ -138,7 +139,7 @@ The measured local SUT scales efficiently at low concurrency but enters a latenc
 - `dxdiag` screenshot showing hostname THOAI.
 - At least six minutes of Vietnamese narration in an unlisted YouTube video.
 - Published GitHub Issue links and screenshots.
-- Public repository URL and demo video URL.
+- Demo video URL.
 - Student approval of the human-review conclusions and self-assessed grade.
 
 ## Appendix A - AI Audit declaration

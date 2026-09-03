@@ -21,6 +21,8 @@ During the corrected 600-VU Spike test, the backend refused connections during a
 - p99: 1,146 ms
 - Maximum: 2,197 ms
 
+![Corrected 600-VU Spike JMeter dashboard](https://raw.githubusercontent.com/ngothoaidev/23127124-HW05-Performance-Testing/master/evidence/issue-screenshots/spike-dashboard.png)
+
 ## Steps to reproduce
 
 1. Restart the backend to reseed SQLite.
@@ -34,4 +36,3 @@ The service should either accept the configured load within its declared limit o
 ## Actual
 
 Registration and login connections were refused during the spike, and p99 exceeded one second.
-

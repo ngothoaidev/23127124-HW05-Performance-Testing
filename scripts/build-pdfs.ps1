@@ -2,9 +2,10 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $PSScriptRoot
 $outputDir = Join-Path $root "output\pdf"
 $tempDir = Join-Path $root "tmp\pdfs"
+$edgeProfileDir = Join-Path $root ".runtime\edge-pdf"
 $edge = "C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
 
-New-Item -ItemType Directory -Force -Path $outputDir, $tempDir | Out-Null
+New-Item -ItemType Directory -Force -Path $outputDir, $tempDir, $edgeProfileDir | Out-Null
 
 $css = @"
 @page { size: A4; margin: 17mm 16mm 18mm 16mm; }
@@ -46,7 +47,8 @@ foreach ($document in $documents) {
     $pdfPath = Join-Path $outputDir ($document.Name + ".pdf")
     Set-Content -Encoding UTF8 -LiteralPath $htmlPath -Value $html
     $fileUrl = ([uri]$htmlPath).AbsoluteUri
-    & $edge --headless=new --disable-gpu --hide-scrollbars --no-pdf-header-footer "--print-to-pdf=$pdfPath" $fileUrl | Out-Null
+    if (Test-Path -LiteralPath $pdfPath) { Remove-Item -Force -LiteralPath $pdfPath }
+    & $edge --headless=new --disable-gpu --hide-scrollbars --no-pdf-header-footer "--user-data-dir=$edgeProfileDir" "--print-to-pdf=$pdfPath" $fileUrl | Out-Null
     for ($attempt = 0; $attempt -lt 40 -and -not (Test-Path -LiteralPath $pdfPath); $attempt++) {
         Start-Sleep -Milliseconds 250
     }

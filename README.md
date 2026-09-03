@@ -27,7 +27,7 @@ Measured runs must restart the backend before each scenario to reset SQLite and 
 - Endurance threshold demonstrated: 926.00 RPS at 250 VUs for ten minutes; p95 311 ms; 0% errors; maximum backend working set 211.34 MB.
 - Verified issue drafts: 2.
 - Demo video: `<ADD_UNLISTED_YOUTUBE_URL>`.
-- Public repository: `<ADD_PUBLIC_GITHUB_URL>`.
+- Public repository: https://github.com/ngothoaidev/23127124-HW05-Performance-Testing.
 
 ## Submission status
 
@@ -41,4 +41,4 @@ Measured runs must restart the backend before each scenario to reset SQLite and 
 | Agent Skill | 10 | 10 | Validated; demo video pending |
 | **Total** | **100** | **100** | External evidence still required |
 
-The self-assessment remains conditional on adding the public repository, GitHub Issue, hardware screenshot, and unlisted narrated demo links.
+The self-assessment remains conditional on adding the GitHub Issue URLs, hardware screenshot, and unlisted narrated demo link.
