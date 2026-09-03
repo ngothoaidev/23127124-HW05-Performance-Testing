@@ -28,19 +28,19 @@ Measured runs must restart the backend before each scenario to reset SQLite and 
 - Published verified issues:
   - https://github.com/ngothoaidev/23127124-HW05-Performance-Testing/issues/1
   - https://github.com/ngothoaidev/23127124-HW05-Performance-Testing/issues/2
-- Demo video: `<ADD_UNLISTED_YOUTUBE_URL>`.
+- Demo video: https://youtu.be/kmkiT8y2rXQ.
 - Public repository: https://github.com/ngothoaidev/23127124-HW05-Performance-Testing.
 
 ## Submission status
 
 | Criterion | Max | Self-assessed | Status |
 |---|---:|---:|---|
-| Load testing | 30 | 30 | Technical artifacts and student screenshot complete; video pending |
-| Stress testing | 20 | 20 | Technical artifacts and student screenshot complete; video pending |
-| Spike testing | 20 | 20 | Technical artifacts and student screenshot complete; video pending |
-| AI analysis and misinterpretation hunt | 10 | 10 | Complete; student review pending |
+| Load testing | 30 | 30 | Technical artifacts, screenshot, and demo complete |
+| Stress testing | 20 | 20 | Technical artifacts, screenshot, and demo complete |
+| Spike testing | 20 | 20 | Technical artifacts, screenshot, and demo complete |
+| AI analysis and misinterpretation hunt | 10 | 10 | Complete with preserved human-review record |
 | Continuous Performance Testing proposal | 10 | 10 | Complete |
-| Agent Skill | 10 | 10 | Validated; demo video pending |
-| **Total** | **100** | **100** | External evidence still required |
+| Agent Skill | 10 | 10 | Validated and demonstrated |
+| **Total** | **100** | **100** | Ready for submission |
 
-The self-assessment remains conditional on adding the unlisted narrated demo link and student approval.
+The submission now includes the unlisted narrated demo link, public repository, issues, screenshots, reports, test artifacts, and Git audit trail.

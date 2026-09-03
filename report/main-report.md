@@ -5,7 +5,8 @@
 **Tool:** Apache JMeter 5.6.3  
 **Test date:** 2026-09-03  
 **Base URL:** `http://127.0.0.1:3000`  
-**Public repository:** https://github.com/ngothoaidev/23127124-HW05-Performance-Testing
+**Public repository:** https://github.com/ngothoaidev/23127124-HW05-Performance-Testing  
+**Demo video:** https://youtu.be/kmkiT8y2rXQ
 
 ## 1. Executive summary
 
@@ -159,11 +160,9 @@ These reruns confirm that the test plans completed with their declared concurren
 
 ![DxDiag System tab showing hostname and hardware](../evidence/hardware-dxdiag.png)
 
-## 13. Evidence still requiring the student
+## 13. Demo video
 
-- At least six minutes of Vietnamese narration in an unlisted YouTube video.
-- Demo video URL.
-- Student approval of the human-review conclusions and self-assessed grade.
+The student supplied the narrated demonstration as an unlisted YouTube video: [https://youtu.be/kmkiT8y2rXQ](https://youtu.be/kmkiT8y2rXQ). The final recorded demo workload completed 5,831 HTTP samples with zero errors, 126.95 RPS, p95 of 7 ms, and a maximum backend working set of 88.36 MB.
 
 ## Appendix A - AI Audit declaration
 

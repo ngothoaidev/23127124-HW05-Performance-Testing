@@ -7,10 +7,10 @@ These items cannot be fabricated or completed silently by AI.
 - [x] Capture JMeter and Task Manager in the same frame as `evidence/load-jmeter-task-manager.png`, `evidence/stress-jmeter-task-manager.png`, and `evidence/spike-jmeter-task-manager.png`.
 - [x] Run `dxdiag` and save a screenshot showing hostname `THOAI` as `evidence/hardware-dxdiag.png`.
 - [ ] Record at least six minutes with your own Vietnamese narration using `docs/demo-video-script-vi.md`.
-- [ ] Upload the video as unlisted and replace `<ADD_UNLISTED_YOUTUBE_URL>` in `README.md`.
+- [x] Upload the video as unlisted and add https://youtu.be/kmkiT8y2rXQ to the submission.
 - [x] Publish the two verified issue drafts with JMeter dashboard screenshots and add their URLs.
 - [x] Add the public GitHub repository URL to `README.md`.
 - [ ] Export or attach the complete Codex transcript if the lecturer requires verbatim AI outputs rather than the audit summaries.
 - [x] Provide Git author name and GitHub email before generating the final commit log.
 - [ ] Confirm the exact Moodle deadline because 12:00 on 2026-09-03 had already passed when work began.
-- [ ] Rebuild the PDFs after adding URLs, then create the final ZIP.
+- [x] Rebuild the PDFs after adding URLs, then create the final ZIP.
