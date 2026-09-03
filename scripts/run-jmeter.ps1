@@ -74,10 +74,16 @@ $processInfo.FileName = $javaExe
 $processInfo.WorkingDirectory = $root
 $processInfo.UseShellExecute = $false
 $processInfo.CreateNoWindow = $true
-$processInfo.ArgumentList.Add("-jar")
-$processInfo.ArgumentList.Add($jmeterJar)
-foreach ($argument in $arguments) {
-    $processInfo.ArgumentList.Add([string]$argument)
+$allArguments = @("-jar", $jmeterJar) + $arguments
+if ($null -ne $processInfo.ArgumentList) {
+    foreach ($argument in $allArguments) {
+        $processInfo.ArgumentList.Add([string]$argument)
+    }
+} else {
+    # Windows PowerShell 5.1 uses .NET Framework, where ArgumentList is unavailable.
+    $processInfo.Arguments = ($allArguments | ForEach-Object {
+        '"' + ([string]$_).Replace('"', '\"') + '"'
+    }) -join ' '
 }
 $jmeterProcess = [System.Diagnostics.Process]::Start($processInfo)
 $backendPid = [int](Get-Content -Raw -LiteralPath $pidFile)
